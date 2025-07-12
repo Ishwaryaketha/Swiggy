@@ -1,0 +1,15 @@
+@import "tailwindcss";
+.star-rating {
+  display: inline-block;
+}
+
+.star {
+  font-size: 2em;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.star:hover,
+.star.active {
+  color: gold;
+}
